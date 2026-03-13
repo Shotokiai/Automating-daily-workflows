@@ -1,7 +1,7 @@
 # What problem are we solving?
 Independent traders have developed custom stock entry strategies (e.g., on Chartink or similar platforms) but lack access to affordable, flexible tools to rigorously backtest those strategies against historical data. Without validation, they risk deploying unproven logic in live markets, leading to avoidable losses.
 
-<br>
+<br><br>
 
 # What you have to do in high level first?
 
@@ -12,7 +12,7 @@ Independent traders have developed custom stock entry strategies (e.g., on Chart
 - After this, you can see the API key, but in order to get the TOTP check the top nav of the same screen from there you can take
 
 
-<br>
+<br><br>
 
 
 # Make this changes in codebase
@@ -23,6 +23,12 @@ Independent traders have developed custom stock entry strategies (e.g., on Chart
     2. pip install smartapi-python pyotp
 - Now lets say if your total setup is ready then in order to get the desired result run this command - python nse_backtest.py
  
+
+<br><br>
+
+# Limitations
+- Stock Selection: This backtest code currently supports only FNO (Futures and Options) stocks. If you intend to trade smallcap stocks, you will need to modify the stock list accordingly time to time.
+- Timeframe Support: The tool is optimized for 5-minute candles of last 30 days. If you wish to use smaller timeframes, you may need to adjust the date range accordingly to ensure sufficient historical data is available for accurate backtesting.
 
 
 
