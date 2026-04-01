@@ -8,7 +8,9 @@ Independent traders have developed custom stock entry strategies (e.g., on Chart
 - Convert all your strategy of the particular dashboard in Python from claude
 - Get the API Key and TOTP_SECRET from any broker. I used the Angelone here.
 - What is the process to get that - https://smartapi.angelbroking.com/
-- In the redirection on the next screen to obtain the API key, you can put this - https://127.0.0.1 https://127.0.0.1
+- Give any name to your app
+- In the redirection on the next screen section put this - https://www.google.com
+- After this there will be a primary key that you need to put, so use this to get that IP - https://www.whatismyip.com/
 - After this, you can see the API key, but in order to get the TOTP check the top nav of the same screen from there you can take
 
 
